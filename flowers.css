@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.btn-primary {
+    font-family: Lato;
+    background-color: #E55473;
+    width: 177px;
+    height: 64px;
+    font-size: 20px;
+    font-weight: 700;
+    border: none;
+    border-radius: 7px;
+    color: white;
+}
+
+.first-section {
+   width: auto;
+   height: 850px;
+   /* align-content: center; */
+   background-color: #E554731A;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   gap: 50px;
+   margin-bottom: 170px;
+}
+
+
+
+.first-section-bg {
+    width: auto;
+    height: 800px; 
+}
+
+.first-section-content {
+    margin-left: 200px;
+}
+
+
+.first-section-header {
+    font-family: Lato;
+    font-size: 60px;
+    font-weight: 800;
+    color: #272727;
+    margin-bottom: 32px;
+}
+
+.first-section-para {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+    color: #27272799;
+    margin-bottom: 32px;
+}
+
+.first-sectiom-img {
+    background-image: url(images/banner-image.png);
+    width: 560px;
+    height: 800px;
+}
+
+/* Second section start */
+
+.second-section {
+    width: auto;
+    height: 132px;
+    border: 2px solid palevioletred;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.second-section-header {
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+    color: black;
+    margin-bottom: 24px;
+}
+
+.second-section-para {
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    color: #27272799;
+}
+
+/* third swction start  */
+
+.third-section {
+    width: auto;
+    height: 605px;
+    border: 2px solid red;
+}
+
+.shape-one {
+    width: 464px;
+    height: 538px;
+    background-color: #A7216226;
+    border-radius: 50% 50% 0 0;
+    
+}
+
+.third-section-shape {
+    width: 464px;
+    height: 538px;
+    border-radius: 50% 50% 0 0;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.third-section-img {
+    width: 310px;
+    height: 428px;
+    background-image: url(images/featured1.png);
+    background-size: cover;
+}
