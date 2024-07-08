@@ -24,7 +24,7 @@
    /* align-content: center; */
    background-color: #E554731A;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
    gap: 50px;
    margin-bottom: 170px;
@@ -69,9 +69,9 @@
 .second-section {
     width: auto;
     height: 132px;
-    border: 2px solid palevioletred;
     text-align: center;
     margin-bottom: 45px;
+    display: block;
 }
 
 .second-section-header {
@@ -94,13 +94,12 @@
 .third-section {
     width: auto;
     height: 605px;
-    border: 2px solid red;
     display: flex;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
+    align-content: center;
     gap: 60px;
     margin-bottom: 128px;
-
 }
 
 /* shape one */
